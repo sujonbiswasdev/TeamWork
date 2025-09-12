@@ -1,1 +1,1 @@
-<div><h4>figma file </h4>: click here : https://shorturl.at/iV5MM </div>
+<div><h4>figma file </h4>: https://shorturl.at/iV5MM </div>
