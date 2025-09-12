@@ -1,1 +1,1 @@
-<div class="flex gap-5 text-green-500"><h4>figma file </h4>: <a href="">click here : https://shorturl.at/iV5MM</a> </div>
+<div><h4>figma file </h4>: click here : https://shorturl.at/iV5MM </div>
