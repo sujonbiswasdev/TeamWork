@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroui/accordion": "^2.2.23",
     "@heroui/react": "^2.8.4",
     "@tailwindcss/vite": "^4.1.13",
     "framer-motion": "^12.23.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-fast-marquee": "^1.6.5",
     "react-router": "^7.9.1",
     "tailwindcss": "^4.1.13"
   },
