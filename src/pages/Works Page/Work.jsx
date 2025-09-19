@@ -1,8 +1,20 @@
 import React from 'react'
+import MyHoro from './Horo'
+import MyGallery from './Gallery'
+import StartProject from './StartProject'
+
+
+
 
 const Work = () => {
   return (
-    <div>Work</div>
+    <>
+      <MyHoro/>
+      <MyGallery/>
+      <StartProject/>
+      
+     
+    </>
   )
 }
 

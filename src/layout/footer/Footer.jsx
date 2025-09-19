@@ -11,6 +11,7 @@ const Footer = () => {
       }).then((data)=>setdata(data))
     },[])
   return (
+
     <div className='max-w-[1596px] mx-auto bg-black px-6 py-4'>
       <div className='flex flex-col md:flex-row gap-5 justify-between items-center'>
         {/* ....................logo.................... */}
@@ -68,6 +69,9 @@ const Footer = () => {
 
       </div>
     </div>
+
+    <div className='bg-black text-white'> </div>
+
   )
 }
 

@@ -11,6 +11,7 @@ const Navbar = () => {
     }).then((data)=>setdata(data))
   },[])
   return (
+
     <div className='w-full md:max-w-[1600px] mx-auto px-6 md:px-12 py-2 bg-black'>
       <nav className='flex gap-5 justify-between items-center'>
         {/* .......................logo............................. */}
@@ -50,6 +51,9 @@ const Navbar = () => {
       </nav>
 
     </div>
+
+    <div className='bg-black text-white'></div>
+
   )
 }
 
