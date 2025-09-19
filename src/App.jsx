@@ -2,17 +2,20 @@
 import { BrowserRouter } from "react-router";
 import AppRoutes from "./routes/AppRoutes";
 import { HeroUIProvider } from "@heroui/react";
+import Hero from "./pages/Home Page/Hero";
+import Home from "./pages/Home Page/Home";
 
 function App() {
 
 
   return (
     <>
-      <HeroUIProvider>
+      {/* <HeroUIProvider>
         <BrowserRouter>
           <AppRoutes />
         </BrowserRouter>
-      </HeroUIProvider>
+      </HeroUIProvider> */}
+      <Home />
 
     </>
   )
