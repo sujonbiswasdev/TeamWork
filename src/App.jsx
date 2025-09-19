@@ -2,7 +2,9 @@
 import { BrowserRouter } from "react-router";
 import AppRoutes from "./routes/AppRoutes";
 import { HeroUIProvider } from "@heroui/react";
-import Work from "./pages/Works Page/Work";
+import Contactpage from "./pages/Contact/Contact";
+
+
 
 function App() {
 
@@ -14,7 +16,11 @@ function App() {
           <AppRoutes />
         </BrowserRouter>
       </HeroUIProvider> */}
-      <Work/>
+
+  
+  <Contactpage/>
+     
+     
 
     </>
   )
