@@ -9,6 +9,8 @@ import Contactpage from "./pages/Contact/Contact";
 
 import Hero from "./pages/Home Page/Hero";
 import Home from "./pages/Home Page/Home";
+import Services from "./pages/Services Page/Services";
+
 
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
      
 
       <Home />
+    <Services/>
 
 
     </>
