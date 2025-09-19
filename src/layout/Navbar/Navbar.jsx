@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* .......................logo............................. */}
        
         <div className='flex items-center gap-2'>
-           <img src={logos} alt="" className='z-50 w-[60px] h-[60px]' />
+           <img src={logos} alt="" className='z-40 w-[60px] h-[60px]' />
            <h2>SquareUp</h2>
         </div>
 

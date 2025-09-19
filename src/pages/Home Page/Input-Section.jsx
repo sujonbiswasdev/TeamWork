@@ -5,7 +5,7 @@ import {Textarea} from "@heroui/react";
 
 const InputSection = () => {
   return (
-    <div className='mt-6'>
+    <div className='mt-6 mb-6'>
       <div className='flex flex-col justify-center items-center'>
         <div className="flex flex-wrap md:flex-nowrap gap-4">
       <Input label="Email" type="email" />
@@ -55,7 +55,7 @@ const InputSection = () => {
     />
       </div>
       <div className='flex flex-col items-center justify-center'>
-        <button className='px-6 py-3 bg-[#9EFF00] text-[#1A1A1A] text-sm rounded-md mt-5'>Submit</button>
+        <button className='px-6 py-3 bg-[#9EFF00] text-[#1A1A1A] cursor-pointer text-sm rounded-md mt-5'>Submit</button>
       </div>
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import { motion, scale } from 'framer-motion'
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero z-30'>
         <div className='bg-[url(/images/about/about_banner.png)] w-full h-[50vh] bg-no-repeat bg-center bg-cover z-20'>
 
         <div className='flex flex-col items-center justify-center z-50 relative'>

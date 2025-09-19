@@ -16,9 +16,6 @@ const Home = () => {
     <div>
 
     <Hero/>
-    <Company/>
-
-        <Hero />
         <Trusted />
         <Services />
         <Card />
