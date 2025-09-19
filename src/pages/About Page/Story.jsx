@@ -27,8 +27,8 @@ const Story = () => {
                     transition={{duration:0.5,delay:0.25}}
                          key={index} className='bg-[#111111] rounded-2xl px-6 py-4'>
                             <div className='flex  gap-7 items-center '>
-                                <h2 className='text-[#D8FF99] text-[50px] md:text-[100px] font-semibold'>{item.num}</h2>
-                                <p className='text-[20px] md:text-5xl font-semibold text-[#D8FF99]'>{item.prof}</p>
+                                <h2 className='text-[#D8FF99] text-[50px] md:text-[95px] font-semibold'>{item.num}</h2>
+                                <p className='text-[20px] md:text-[38px] font-semibold text-[#D8FF99]'>{item.prof}</p>
                             </div>
                             <p className='text-secoundary max-w-[698px] mx-auto text-[16px] md:text-[18px]'>{item.des}</p>
                         </motion.div>
