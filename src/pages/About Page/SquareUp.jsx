@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 const SquareUp = () => {
     return (
-        <div className='px-16 py-6'>
+        <div className='px-8 py-6'>
             <div className='flex flex-col lg:flex-row gap-11'>
                 <div className='lg:w-1/2 w-full flex flex-col items-center justify-center'>
                     <motion.div
