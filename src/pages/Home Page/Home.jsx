@@ -1,3 +1,8 @@
+ monir-works
+import React from 'react'
+import Hero from './Hero'
+import Company from './Company'
+
 import React from 'react';
 import Hero from './Hero';
 import Trusted from './Trusted';
@@ -13,9 +18,14 @@ import Question from './Question';
 import Interest from './Interest';
 
 
+
 const Home = () => {
   return (
     <div>
+
+    <Hero/>
+    <Company/>
+
         <Hero />
         <Trusted />
         <Services />
@@ -29,6 +39,7 @@ const Home = () => {
         <Interest />
         <InputSection />
         
+
         
     </div>
   )

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='bg-[url(/images/home/hero.png)] bg-cover bg-center text-white py-16'>
+
+    <div>
+         <section className='bg-[url(/images/home/hero.png)] bg-cover bg-center text-white py-16'>
       <div className='container mx-auto text-center px-4'>
         <h1 className='font-bold leading-snug mb-6 text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>A Digital Product Studio <br />that will Work</h1>
 
@@ -28,7 +30,11 @@ const Hero = () => {
         </div>
       </div>  
     </section>
+    </div>
   )
 }
 
 export default Hero
+
+ 
+
