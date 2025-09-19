@@ -11,9 +11,6 @@ const About = () => {
       <SquareUp/>
       <Story/>
       <Today/>
-
-      <button  className='font-Barlow text-white bg-primary ' >Button</button>
-
     </div>
   )
 }

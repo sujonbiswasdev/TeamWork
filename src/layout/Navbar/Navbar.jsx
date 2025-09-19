@@ -12,7 +12,7 @@ const Navbar = () => {
   },[])
   return (
 
-    <div className='w-full md:max-w-[1600px] mx-auto px-6 md:px-12 py-2 bg-black'>
+    <div className='w-full md:max-w-[1600px] mx-auto px-8 md:px-12 py-3 bg-black'>
       <nav className='flex gap-5 justify-between items-center'>
         {/* .......................logo............................. */}
        
