@@ -4,7 +4,7 @@ import DesignCard from './DesignCard'
 import EngineeringCard from './EngineeringCard'
 import ProjectCard from './ProjectCard'
 import StartProject from './StartProject';
-const Services = () => {
+const Service = () => {
   return (
     <>
       <HeroSection/>
@@ -16,4 +16,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Service

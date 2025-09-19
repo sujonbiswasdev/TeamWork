@@ -69,9 +69,6 @@ const Footer = () => {
 
       </div>
     </div>
-
-    <div className='bg-black text-white'> </div>
-
   )
 }
 

@@ -5,14 +5,14 @@ import Today from "./Today"
 
 const About = () => {
   return (
-    <div className='bg-black min-h-screen'>
+    <div className='bg-black min-h-screen overflow-hidden'>
 
       <Hero/>
       <SquareUp/>
       <Story/>
       <Today/>
 
-      <Button  className='font-Barlow text-white bg-primary ' >Button</Button>
+      <button  className='font-Barlow text-white bg-primary ' >Button</button>
 
     </div>
   )

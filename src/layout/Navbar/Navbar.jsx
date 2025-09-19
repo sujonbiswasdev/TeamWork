@@ -36,7 +36,7 @@ const Navbar = () => {
         </ul>
 
         {/* ......................button....................... */}
-        <button className='hidden md:block cursor-pointer px-4 py-2  bg-primary text-black rounded-xl'>Contact Us</button>
+        <Link to="/contact" className='hidden md:block cursor-pointer px-4 py-2  bg-primary text-black rounded-xl'>Contact Us</Link>
 
         {/* .....................Responsive navItem............. */}
        {isOpen ?(
@@ -51,9 +51,6 @@ const Navbar = () => {
       </nav>
 
     </div>
-
-    <div className='bg-black text-white'></div>
-
   )
 }
 

@@ -1,10 +1,5 @@
- monir-works
-import React from 'react'
 import Hero from './Hero'
 import Company from './Company'
-
-import React from 'react';
-import Hero from './Hero';
 import Trusted from './Trusted';
 import Services from './Services';
 import Card from './Card';
@@ -16,9 +11,6 @@ import InputSection from './Input-Section';
 import Clients from './Clients';
 import Question from './Question';
 import Interest from './Interest';
-
-
-
 const Home = () => {
   return (
     <div>
