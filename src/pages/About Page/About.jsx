@@ -1,9 +1,15 @@
-import React from 'react'
-import {Button} from "@heroui/react";
+import Hero from "./Hero"
+import SquareUp from "./SquareUp"
+import Story from "./Story"
+import Today from "./Today"
+
 const About = () => {
   return (
     <div className='bg-black min-h-screen'>
-      <Button  className='font-Barlow text-white bg-primary text-black' >Button</Button>
+      <Hero/>
+      <SquareUp/>
+      <Story/>
+      <Today/>
     </div>
   )
 }
