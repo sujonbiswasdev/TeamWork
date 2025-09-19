@@ -5,6 +5,20 @@
   --font-Barlow:"Barlow", sans-serif;
 }
 
+.hero{
+  position: relative;
+}
+.hero::after{
+   content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.75);
+  z-index: 1;
+}
+
 @import "tailwindcss";
 @plugin '../hero.ts';
 /* Note: You may need to change the path to fit your project structure */
