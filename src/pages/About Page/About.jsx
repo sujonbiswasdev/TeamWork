@@ -5,7 +5,7 @@ import Today from "./Today"
 
 const About = () => {
   return (
-    <div className='bg-black min-h-screen overflow-hidden z-30'>
+    <div className='bg-black min-h-screen overflow-hidden z-30 mx-auto'>
 
       <Hero/>
       <SquareUp/>

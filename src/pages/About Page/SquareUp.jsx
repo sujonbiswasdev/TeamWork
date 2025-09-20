@@ -2,9 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 const SquareUp = () => {
     return (
-        <div className='px-3 md:px-8  py-6'>
-            <div className='flex flex-col md:flex-row gap-5 items-center'>
-                <div className=''>
+        <div className='px-3 lg:px-8  py-6'>
+            <div className='flex flex-col md:flex-row gap-5 items-center max-auto' >
+                <div className='lg:w-1/2 w-full'>
                     <motion.div
                     variants={{
                     hidden:{opacity:0,y:75},
@@ -27,7 +27,7 @@ const SquareUp = () => {
                 whileInView={{ opacity: 1 ,y:75}}
                 transition={{duration:0.5,delay:0.25}}
                  className='lg:w-1/2 w-full flex flex-col items-center justify-center'>
-                    <img src="/images/about/about-squre.png" className='w-[598px] h-[571px] px-10 py-8 flex-1 object-cover' alt="" />
+                    <img src="/images/about/about-squre.png" className='w-[598px] h-[571px] px-10 py-8 flex-1 object-contain' alt="" />
                 </motion.div>
             </div>
         </div>
