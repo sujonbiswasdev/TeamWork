@@ -16,7 +16,7 @@ const Footer = () => {
       <div className='flex flex-col md:flex-row gap-5 justify-between items-center'>
         {/* ....................logo.................... */}
         <div className='flex items-center gap-2 px-8'>
-          <img src={logos} alt="" className='z-50 w-[60px] h-[60px]' />
+          <img src={logos} alt="" className='z-30 w-[60px] h-[60px]' />
           <h2>SquareUp</h2>
         </div>
 

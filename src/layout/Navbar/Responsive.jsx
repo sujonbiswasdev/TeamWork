@@ -5,7 +5,7 @@ const Responsive = ({data,isOpen,setIsopen}) => {
   return (
     <div className='overflow-hidden '> 
         {data &&(
-            <div className='w-full fixed bg-black text-white h-screen overflow-hidden top-0 left-0 z-50 px-8 py-8'>
+            <div className='w-full fixed bg-black text-white h-full overflow-hidden top-0 left-0 z-50 px-8 py-8'>
                <div className='flex gap-2 justify-between'>
                <div className='flex flex-col'>
                   {data.map((item)=>(

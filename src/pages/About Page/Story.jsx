@@ -11,10 +11,10 @@ const Story = () => {
       },[])
   return (
     <div className='mt-6'>
-        <div className=' py-10 px-8'> 
-            <h2 className='text-5xl font-bold px-8'>Our Story</h2>
+        <div className=' py-10 px-3 md:px-8'> 
+            <h2 className='text-5xl font-bold px-3 md:px-8'>Our Story</h2>
         </div>
-        <div className='px-8 py-10 '>
+        <div className='px-3 md:px-8 py-10 '>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 py-3'>
                 {
                     data.map((item,index)=>(
@@ -25,7 +25,7 @@ const Story = () => {
                   initial="hidden"
                    whileInView={{ opacity: 1 ,y:0}}
                     transition={{duration:0.5,delay:0.25}}
-                         key={index} className='bg-[#111111] rounded-2xl px-6 py-4'>
+                         key={index} className='bg-[#111111] rounded-2xl px-3 md:px-6 py-4'>
                             <div className='flex  gap-7 items-center '>
                                 <h2 className='text-[#D8FF99] text-[50px] md:text-[95px] font-semibold'>{item.num}</h2>
                                 <p className='text-[20px] md:text-[38px] font-semibold text-[#D8FF99]'>{item.prof}</p>
