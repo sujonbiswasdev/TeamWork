@@ -15,7 +15,7 @@ const Today = () => {
                         initial="hidden"
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.25 }}
-                        src={logos} alt="" className='w-[150px] h-[150px] px-4 py-4' />
+                        src={logos} alt="" className='w-[150px] h-[150px] px-3 md:px-4 py-4' />
                     <div className='space-y-2.5'>
                         <motion.h3
                             variants={{
